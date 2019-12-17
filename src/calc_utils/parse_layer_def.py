@@ -14,11 +14,14 @@ def parse_layer_def(layer_def, random_range=2):
     subdefs = layer_def.split(';')
 
     for subdef in subdefs:
+        subdef = subdef.strip()
         if ',' in subdef:
             n, l = subdef.split(',')
-            subdef = l*int(n)
+            subdef = l.strip()*int(n.strip())
 
         for c in subdef:
+            if c == ' ':
+                continue
             if c.lower() == 'r':
                 r = randint(0,random_range)
             else:

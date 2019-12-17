@@ -1,0 +1,15 @@
+{
+    "layer_def": "10,r",
+    "cell_color0": [255,0,0,255],
+    "cell_color1": [255,255,0,255],
+    "cell_color2": [0,0,255,255],
+    "cell_hidden0": false,
+    "cell_hidden1": false,
+    "cell_hidden2": false,
+    "cell_size": 40,
+    "cell_shape": 0,
+    "bg_color": [255,255,255,255],
+    "border_color": [0,0,0,255],
+    "border_width": 8,
+    "border_hidden": false
+}
