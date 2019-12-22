@@ -10,6 +10,7 @@ def cell_color0(master):
     inp.setProperty('class', 'colorButton')
 
     inp.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+    label.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
     inp.clicked.connect(partial(action, inp, master))
     check_box = QCheckBox()
     check_box.setChecked(master.config['cell_hidden0'])

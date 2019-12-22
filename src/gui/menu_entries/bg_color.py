@@ -8,6 +8,7 @@ def bg_color(master):
     inp.setStyleSheet(f'background-color: rgba({r}, {g}, {b}, {a})')
 
     inp.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+    label.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
     inp.setFocusPolicy(Qt.NoFocus)
     inp.setProperty('class', 'colorButton')
     inp.clicked.connect(partial(action, inp, master))

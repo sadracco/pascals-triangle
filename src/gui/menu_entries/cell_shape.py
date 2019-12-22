@@ -5,11 +5,11 @@ def cell_shape(master):
     inp = QComboBox()
     inp.setFocusPolicy(Qt.NoFocus)
     inp.addItem('Hexagon')
-    inp.addItem('Square')
+    inp.addItem('Box')
     inp.addItem('Circle')
-    inp.addItem('Triangle')
     inp.setCurrentIndex(master.config['cell_shape'])
     inp.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+    label.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
     inp.currentIndexChanged.connect(partial(action, inp, master))
     master.settings.addRow(label, inp)
 

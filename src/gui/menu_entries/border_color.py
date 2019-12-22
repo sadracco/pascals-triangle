@@ -10,6 +10,7 @@ def border_color(master):
     inp.setProperty('class', 'colorButton')
 
     inp.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+    label.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
     inp.clicked.connect(partial(action, inp, master))
     check_box = QCheckBox()
     check_box.setChecked(master.config['border_hidden'])

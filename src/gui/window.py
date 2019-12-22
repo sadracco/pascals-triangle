@@ -16,9 +16,6 @@ class Window(QMainWindow):
     def initUI(self):
         self.setWindowTitle(app_config['title'])
 
-        with open('gui/style.css', 'r') as style_file:
-            self.setStyleSheet(style_file.read())
-
         if app_config['fullscreen']:
             self.showMaximized()
 

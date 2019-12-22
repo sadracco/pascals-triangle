@@ -11,5 +11,7 @@
     "bg_color": [255,255,255,255],
     "border_color": [0,0,0,255],
     "border_width": 8,
-    "border_hidden": false
+    "border_hidden": false,
+    "x_shift": 0,
+    "y_shift": 0
 }

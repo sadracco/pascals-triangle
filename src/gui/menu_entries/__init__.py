@@ -7,3 +7,5 @@ from .cell_color2 import *
 from .border_color import *
 from .border_width import *
 from .cell_size import *
+from .x_shift import *
+from .y_shift import *

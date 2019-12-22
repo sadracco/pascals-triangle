@@ -26,6 +26,7 @@ def parse_layer_def(layer_def, random_range=2):
                 r = randint(0,random_range)
             else:
                 r = int(c)
+
             parsed_layer.append(r)
 
     return parsed_layer

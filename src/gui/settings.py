@@ -20,3 +20,5 @@ class Settings(QGroupBox):
         cell_color2(self)
         border_color(self)
         border_width(self)
+        x_shift(self)
+        y_shift(self)
