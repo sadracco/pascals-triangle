@@ -1,5 +1,5 @@
 # Colorful Pascal's triangle
-Pascal's triangle on steroids. It's a small program written in python using Qt5, inspired with a Mathologer's youtube video. Program allows the user to generate triangles similar to those in the video. User can specify different properties:
+Pascal's triangle on steroids. It's a small program written in python using Qt5, inspired with a [Mathologer](https://www.youtube.com/channel/UC1_uAIS3r8Vu6JjXWvastJg)'s youtube [video](https://www.youtube.com/watch?v=9JN5f7_3YmQ). Program allows the user to generate triangles similar to those in the video. User can specify different properties:
 - How the first row looks like
 - Background color
 - Cells shape, size and color
